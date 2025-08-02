@@ -36,7 +36,7 @@ export function SiteHeader() {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 relative">
         {/* Centered Logo and Name */}
         <Link href="/" className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-2 group z-20">
-          <div className="relative h-10 w-10 bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+          <div className="relative h-10 w-10 overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
             <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
           </div>
           <div className="flex flex-col">
