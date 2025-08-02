@@ -12,8 +12,7 @@ export function SiteFooter() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="/" className="flex items-center gap-2 group mb-4">
               <div className="relative h-10 w-10 bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                <div className="absolute inset-0 bg-green-500 opacity-90"></div>
-                <Trophy className="h-6 w-6 text-white relative z-10 transition-transform duration-300 group-hover:rotate-12" />
+                <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-orange-300 leading-none">

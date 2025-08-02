@@ -65,7 +65,7 @@ export function BettingSitesList() {
                   <div
                     className={cn(
                       "md:col-span-3 p-3 md:p-4 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-gray-100",
-                      "bg-green-50", // Consistent green-50 for all logo/rating sections
+                      "bg-green-50 md:rounded-tl-xl md:rounded-bl-xl", // ADDED rounded classes here
                     )}
                   >
                     <div className="relative">
@@ -126,7 +126,7 @@ export function BettingSitesList() {
                   <div
                     className={cn(
                       "md:col-span-4 p-3 md:p-4 flex flex-col items-center justify-center border-t md:border-t-0 md:border-l border-gray-100",
-                      "bg-orange-50", // Consistent orange-50 for all CTA sections
+                      "bg-orange-50 md:rounded-tr-xl md:rounded-br-xl", // ADDED rounded classes here
                     )}
                   >
                     <div className="w-full max-w-xs">

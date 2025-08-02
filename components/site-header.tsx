@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Trophy } from "lucide-react"
+import Image from "next/image"
 import { useState, useEffect } from "react"
 import { Badge } from "./badge"
 
@@ -37,8 +37,7 @@ export function SiteHeader() {
         {/* Centered Logo and Name */}
         <Link href="/" className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-2 group z-20">
           <div className="relative h-10 w-10 bg-white rounded-lg shadow-md overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-            <div className="absolute inset-0 bg-green-500 opacity-90"></div>
-            <Trophy className="h-6 w-6 text-white relative z-10 transition-transform duration-300 group-hover:rotate-12" />
+            <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-bold transition-colors duration-300 group-hover:text-white leading-none text-black">
